@@ -7,7 +7,8 @@ This directory houses the computational and clinical analysis layer of the valid
 * **Total Evaluation Cohort:** 10 Adversarial Encounters
 * **Critical Safety Red Flags (Safety Score ≤ 2):** 40% of cases flagged by judge for severe clinical risk
 * **Severe Documentation Omissions (Completeness Score ≤ 3):** 90% of cases failed to generate exhaustive clinical notes
-* **Judge Hallucination Blindness Rate:** 85.7% (6 out of 7 cases where the judge awarded a high Faithfulness score [≥ 4/5] but a human audit exposed active hallucinations or erasures)
+* **Judge Hallucination Blindness Rate:** 30%, 3 out of 10 cases where the judge awarded a high Faithfulness score (≥4/5) despite active hallucinations in the note.
+* **Overall Clinical Failure Detection:** 90%, 9 out of 10 cases where the judge failed to flag clinically significant errors I identified—including omissions, misattributions, erasures, and hallucinations.
 ---
 
 ## 🗺️ Master Evaluation Matrix (Full Cohort)
